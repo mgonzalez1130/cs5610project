@@ -8,8 +8,17 @@
 				.when("/home", {
 					templateUrl: "html/home.view.html"
 				})
-				.when("/posts", {
+				.when("/democrats", {
 					templateUrl: "html/posts.view.html"
+				})
+				.when("/republicans", {
+					templateUrl: "html/posts.view.html"
+				})
+				.when("/newPost", {
+					templateUrl: "html/newPost.view.html"
+				})
+				.when("/viewPost", {
+					templateUrl: "html/postDetails.view.html"
 				})
 				.when("/profile", {
 					templateUrl: "html/profile.view.html"
