@@ -6,11 +6,29 @@
 </div>
 
 <div class="container">
+  <h3>Comment</h3>
   <div class="col-lg-8">
-    <h3>Comment</h3>
-    <textarea id="comment-text-area" rows="4">
-    </textarea>
-    <p><a class="btn btn-primary" href="#/viewPost" role="button">Submit &raquo;</a></p>
+      <form class="form-horizontal" role="form">
+        <div class="form-group">
+          <textarea id="comment-text-area" rows="4">
+          </textarea>
+        </div>
+        <div class="form-group">
+          <label class="radio-inline">
+            <input type="radio" name="optradio">Opinion
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="optradio">Proof
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="optradio">Disproof
+          </label>
+        </div>
+        <div class="form-group">
+          <button type="submit" ng-click="Submit()" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+
   </div>
 </div>
 
